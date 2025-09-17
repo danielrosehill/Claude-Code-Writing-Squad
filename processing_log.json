@@ -1,0 +1,57 @@
+{
+  "timestamp": "2025-09-17T03:37:35.272959",
+  "input_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/input.md",
+  "output_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/output.md",
+  "processing_steps": [
+    {
+      "step": 1,
+      "agent": "Basic Typo Reviewer",
+      "agent_file": "basic-typo-reviewer.md",
+      "intermediate_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/intermediate/01_basic_typo_reviewer.md",
+      "text_length": 1500
+    },
+    {
+      "step": 2,
+      "agent": "UK English Standardiser",
+      "agent_file": "uk-english-standardiser.md",
+      "intermediate_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/intermediate/02_uk_english_standardiser.md",
+      "text_length": 1578
+    },
+    {
+      "step": 3,
+      "agent": "Flow and Polish",
+      "agent_file": "flow-and-polish.md",
+      "intermediate_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/intermediate/03_flow_and_polish.md",
+      "text_length": 1656
+    },
+    {
+      "step": 4,
+      "agent": "Headings",
+      "agent_file": "headings.md",
+      "intermediate_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/intermediate/04_headings.md",
+      "text_length": 1734
+    },
+    {
+      "step": 5,
+      "agent": "Proofreader",
+      "agent_file": "proofreader.md",
+      "intermediate_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/intermediate/05_proofreader.md",
+      "text_length": 1812
+    },
+    {
+      "step": 6,
+      "agent": "Add Sources",
+      "agent_file": "add-sources.md",
+      "intermediate_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/intermediate/06_add_sources.md",
+      "text_length": 1890
+    },
+    {
+      "step": 7,
+      "agent": "SEO Reviewer",
+      "agent_file": "seo-reviewer.md",
+      "intermediate_file": "/home/daniel/repos/github/Claude-Code-Writing-Squad/intermediate/07_seo_reviewer.md",
+      "text_length": 1968
+    }
+  ],
+  "total_steps": 7
+}
